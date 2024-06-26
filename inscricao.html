@@ -17,7 +17,7 @@
         </div>
         <div class="navbar">
             <ul>
-                <li><a href="index.html" class="linkAtivo">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="planos.html">Planos</a></li>
                 <li><a href="sobremim.html">Sobre mim</a></li>
                 <li><a href="contato.html">Contato</a></li>
@@ -25,15 +25,23 @@
         </div>
     </header>
     <main>
-        <div class="box1">
-            <div class="slogan">
-                <p>Aprenda inglês de casa e com materiais exclusivos que irão auxiliar no seu aprendizado. Tire dúvidas, pratique seu <span>speaking</span> e seu <span>listening</span> no melhor horário para você com uma professora particular. </p>
-                <button><a href="planos.html">Saiba mais!</a></button>
-            </div>
-            <div class="fotoEstudante">
-                <img src="img/aulaonline.svg">
-            </div>
-        </div>
+        <form name="inscricao" id="inscricao" action="index.html">
+            <p>Faça sua inscrição!</p>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required><br>
+            <label for="dataNasc">Data de nascimento:</label><br>
+            <input type="date" name="dataNasc" id="dataNasc" required><br>
+            <label for="plano">Plano:</label><br>
+            <select name="plano" id="plano">
+                <option value="begginer">Begginer</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+            
+            <button id="inscrever" name="inscrever" onclick="mensagemInscricaoRealizada()">Inscreva-se</button>
+        </form>
     </main>
     <footer>
         <ul>

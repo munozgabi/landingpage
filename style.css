@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto";
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* ----------- HEADER -------------- */
+
+header img{
+    height: 80px;
+    float: left;
+    
+}
+
+header .logo{
+    margin: 10px;
+}
+
+header button{
+    background-color: #A9C6E3;
+    border: 1px solid #5f8ebd;
+    border-radius: 6px;
+    font-size: 25px;
+    float: right;
+    margin: 20px;
+}
+
+header button:hover{
+    background-color: red;
+    border: 1px solid red;
+}
+
+header button a{
+    text-decoration: none;
+    color: black;
+}
+
+header .navbar{
+    background-color: #A9C6E3;
+    position: relative;
+    top: 75px;
+    width: 100%;
+    height: 40px;
+    padding-top: 15px;
+}
+
+header .navbar ul{
+    position: relative;
+    left: 15%;
+}
+
+header .navbar ul li{
+    list-style-type: none;
+    text-decoration-style: none;
+    float: left;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+header .navbar ul li a:hover{
+    background-color: #5f8ebd;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+header .navbar ul a{
+    text-decoration: none;
+    color: black;
+}
+
+header .navbar .linkAtivo{
+    background-color: #5f8ebd;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+/* ----------- HEADER -----------*/
+
+/* -------- INDEX -------- */
+
+.slogan{
+    position: relative;
+    top: 200px;
+    right: 500px;
+    float: left;
+    width: 50%;
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 50px;
+    margin-left: 550px;
+}
+
+.slogan span{
+    color: red;
+    font-weight: bold;
+}
+
+.slogan button{
+    background-color: #A9C6E3;
+    border: 1px solid #5f8ebd;
+    border-radius: 6px;
+    font-size: 25px;
+    position: relative;
+    left: 40%;
+    top: 100px;
+}
+
+.slogan button a{
+    text-decoration: none;
+    color: black;
+}
+
+.slogan button:hover{
+    background-color: red;
+    border: 1px solid red;
+}
+
+.fotoEstudante img{
+    height: 400px;
+    width: 500px;
+    border: 5px solid #5f8ebd;
+    border-radius: 7px;
+}
+
+.fotoEstudante{
+    position: relative;
+    left: 100px;
+    top: -50px;
+    float: right;
+    width: 50%;
+}
+
+/* -------- INDEX -------- */
+
+/* ------- SOBRE MIM ----------- */
+
+.selfie img{
+    height: 400px;
+    width: 320px;
+    border: 5px solid #5f8ebd;
+    border-radius: 7px;
+}
+
+.selfie{
+    position: relative;
+    left: 150px;
+    top: -150px;
+    float: right;
+    width: 50%;
+}
+
+.slogan h2{
+    position: relative;
+    top: -50px;
+}
+
+/* ------- SOBRE MIM ----------- */
+
+/* ----------- PLANOS ---------- */
+
+main span.spanPlanos{
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+    text-align: center;
+    margin:20px;
+    display: block;
+}
+
+.planos{
+    position: relative;
+    top: 100px;
+    left: 10%;
+    font-size: 20px;
+}
+
+.planos table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.planos table a{
+    text-decoration: none;
+    color: black;
+}
+
+.planos td {
+    padding: 20px;
+    text-align: center;
+}
+
+.planos td:nth-child(1) {
+    background-color:	#ffe135;
+    
+}
+
+.planos td:nth-child(2) {
+    background-color: #A9C6E3;
+}
+
+.planos td:nth-child(3) {
+    background-color: #ee3b3b
+}
+
+.planos table td button{
+    border: 1px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+.planos table td button:hover{
+    background-color: rgb(228, 226, 226);
+}
+
+
+/* ----------- PLANOS ---------- */
+
+/* ------ FOOTER -------- */
+
+footer{
+    position: absolute;
+    top: 110%;
+    background-color: #A9C6E3;
+    width: 100%;
+    padding: 30px;
+    height: 92px;
+    margin-top: 10px;
+}
+
+footer ul{
+    position: relative;
+    top: -10px;
+}
+
+footer ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    background-color: #5f8ebd;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer p{
+    float: right;
+    position: relative;
+    right: 100px;
+    bottom: 50px;
+    font-size: 20px;
+}
+
+/* ------ FOOTER -------- */
+
+
+/* ----------- FORM --------- */
+
+form{
+    position: relative;
+    top: 100px;
+    left: 30%;
+    font-size: 20px;
+    border: 2px solid #5f8ebd;
+    border-radius: 5px;
+    width: 600px;
+    padding: 10px 0px 10px 50px;
+    margin-top: 10px;
+}
+
+form input, textarea, select{
+    border: 2px solid #5f8ebd;
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+}
+
+form p{
+    position: relative;
+    right: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form button{
+    position: relative;
+    left: 150px;
+    background-color: #A9C6E3;
+    border: 1px solid #5f8ebd;
+    border-radius: 6px;
+    font-size: 25px;
+    margin: 20px;
+    width: 200px;
+}
+
+form button:hover{
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+
+/* ----------- FORM --------- */
+
+

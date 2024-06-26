@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English with Gabi</title>
+    <title>Document</title>
     <link  rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,23 +17,24 @@
         </div>
         <div class="navbar">
             <ul>
-                <li><a href="index.html" class="linkAtivo">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="planos.html">Planos</a></li>
                 <li><a href="sobremim.html">Sobre mim</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="contato.html" class="linkAtivo">Contato</a></li>
             </ul>
         </div>
     </header>
     <main>
-        <div class="box1">
-            <div class="slogan">
-                <p>Aprenda inglês de casa e com materiais exclusivos que irão auxiliar no seu aprendizado. Tire dúvidas, pratique seu <span>speaking</span> e seu <span>listening</span> no melhor horário para você com uma professora particular. </p>
-                <button><a href="planos.html">Saiba mais!</a></button>
-            </div>
-            <div class="fotoEstudante">
-                <img src="img/aulaonline.svg">
-            </div>
-        </div>
+        <form name="contato" id="contato" action="index.html">
+            <p>Ficou com alguma dúvida? Entre em contato comigo:</p>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required><br>
+            <label for="mensagem">Mensagem: </label><br>
+            <textarea name="mensagem" id="mensagem" required></textarea><br>
+            <button id="enviarEmail" name="enviarEmail" onclick="mensagemEmailEnviado()">Enviar</button>
+        </form>
     </main>
     <footer>
         <ul>
